@@ -68,7 +68,7 @@ export default function Signup() {
           disabled={loading}
           size="lg"
         >
-          {loading ? "Creating account…" : "Create Account →"}
+          {loading ? "Creating account… pls wait 2-3 minutes, pls wait as hosting on free deployer" : "Create Account →"}
         </Button>
 
         <p className="text-center text-sm text-[#6b7390] mt-6">

@@ -111,7 +111,7 @@ export default function Login() {
             disabled={loading}
             size="lg"
           >
-            {loading ? "Signing in…" : "Sign In →"}
+            {loading ? "Signing and Starting server… please wait 2–3 minutes" : "Sign In →"}
           </Button>
 
           <p className="text-center text-sm text-[#6b7390] mt-6">
